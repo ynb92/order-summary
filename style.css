@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body{
+ background-image: url(images/pattern-background-desktop.svg);
+ background-color: hsl(225, 100%, 94%);
+ font-family: 'Red Hat Display', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+article{
+    background-color: white;
+    border-radius: 20px;
+    width: 400px;
+    height: 580px;
+}
+
+img{
+    width: 400px;
+    border-top-left-radius:  20px;
+    border-top-right-radius: 20px;
+}
+
+div .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h2{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+
+.text p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+section{
+    width: 300px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+    margin: auto;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.one img{
+    width: 40px;
+    margin: 25px 0 0 20px;
+}
+
+.one .price{
+    font-size: 14px;
+    margin: 10px 0 0 12px;
+    line-height: 6px;
+}
+
+.price p{
+    color: hsl(224, 23%, 55%);
+}
+
+.price h4{
+    color: hsl(223, 47%, 23%);
+}
+
+.one .two{
+    font-size: 13px;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    margin: 20px 0 0 80px;
+}
+
+.payment{
+    text-align: center;
+    margin: 20px;
+}
+
+.payment button{
+    width: 300px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border: none;   
+}
+
+.payment p{
+    color: hsl(224, 23%, 55%);
+    font-size: 13px;
+    margin-top: 20px;
+}
